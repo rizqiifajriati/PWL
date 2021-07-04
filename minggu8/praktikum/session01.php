@@ -13,7 +13,8 @@ echo "<h2>Klik <a href='session02.php'>di sini
 (session02.php)</a>
 untuk menuju ke halaman pemeriksaan session";
 }
-} else {
+} 
+else {
 ?>
 <html>
 <head>
@@ -22,10 +23,15 @@ untuk menuju ke halaman pemeriksaan session";
 <body>
 <form action="" method="post">
 <h2>Login Here...</h2>
-Username : <input type="text"
+Username : <input type="text" 
 name="user"><br>
-Password : <input type="password"
+Password : <input type="password" 
 name="pass"><br>
-<input type="submit" name="Login"
+<input type="submit" name="Login" 
 value="Log In">
-</form></body></html><? } ?>
+</form>
+</body>
+</html>
+<?php
+}
+?> 
